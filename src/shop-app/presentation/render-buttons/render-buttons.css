@@ -1,0 +1,20 @@
+
+.button-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    margin: 10px;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 5px 15px 5px 15px;
+}
+
+#current-page {
+    color: white !important;
+    font-size: 1.3rem;
+    margin-left: 10px;
+    margin-right: 10px;
+}
