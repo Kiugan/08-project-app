@@ -5,7 +5,7 @@
     align-items: center;
 }
 
-button {
+.button {
     margin: 10px;
     color: rgb(0, 0, 0);
     border-radius: 5px;
@@ -17,4 +17,19 @@ button {
     font-size: 1.3rem;
     margin-left: 10px;
     margin-right: 10px;
+}
+
+button {
+    cursor: pointer;
+    border: solid rgb(0, 153, 255);
+    font-family: "system-ui";
+    font-size: 17px;
+    font-weight: 600;
+    color: rgb(8, 8, 8);
+    width: 122px;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    border-radius: 18px;
+    background: rgb(0, 153, 255);
+    padding: 5px 15px 5px 15px;
+    margin: 15px;
 }

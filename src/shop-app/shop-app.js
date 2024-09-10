@@ -1,5 +1,6 @@
 import { renderButton } from './presentation/render-buttons/render-buttons';
 import { renderGrid } from './presentation/render-grid/render-grid';
+import { renderModalProduct } from './presentation/render-moda-product/render-modal-product';
 import productStore from './store/shop-store';
 
 export const ShopApp = async( element ) =>{
@@ -9,5 +10,6 @@ export const ShopApp = async( element ) =>{
 
     renderGrid( element );
     renderButton( element );
+    renderModalProduct( element );
 }
 

@@ -1,0 +1,33 @@
+.hide-modal{
+    display: none !important; 
+    
+}
+
+.modal{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
+}
+
+.items{
+     display: flex;
+     border: 3px solid white;
+     border-radius: 15px;
+     width: 950px;
+     padding: 15px;
+     background-color: white;
+     color: black;
+     font-size: 3em;
+}
+
+img{
+    border-radius: 15px;
+}
+

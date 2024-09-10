@@ -22,10 +22,6 @@ const loadPreviusPage = async() => {
     state.products = products;
 }
 
-
-
-
-
 export default{
     loadNextPage,
     loadPreviusPage,

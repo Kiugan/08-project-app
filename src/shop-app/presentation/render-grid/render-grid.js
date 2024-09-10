@@ -26,7 +26,7 @@ export const renderGrid = ( element ) => {
     let productHTML = '';
     products.forEach( product => {
         productHTML += `
-            <div class="grid product-${ product.id }">
+            <div class="grid" id="${ product.id }">
                 <p class="product-name">${ product.productName }</p>
                 <img src="https://placehold.co/200x200" alt="">
                 <p class="product-price">Price: ${ product.price }$ </p>
