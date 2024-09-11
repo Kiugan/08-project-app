@@ -13,7 +13,7 @@ export const showModal = async( id ) => {
     }
 };
 
-const setProductData = async( id) => {
+const setProductData = () => {
     modal.innerHTML =`
             <div class="items">
                 <img src="https://placehold.co/350x350" alt="">

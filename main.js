@@ -4,7 +4,9 @@ import javascriptLogo from '/javascript.svg'
 import viteLogo from '/vite.svg'
 
 document.querySelector('#app').innerHTML = `
-    <div>
+    <aside>
+    </aside>
+    <div class="grid-product>
         <a href="https://vitejs.dev" target="_blank">
         <img src="${viteLogo}" class="logo" alt="Vite logo" />
         </a>
@@ -17,5 +19,6 @@ document.querySelector('#app').innerHTML = `
         </div>
     </div>
 `
-const element = document.querySelector('.grid-shop');
-ShopApp( element );
+const element1 = document.querySelector('.grid-shop');
+const element2 = document.querySelector('aside');
+ShopApp( element1, element2);
