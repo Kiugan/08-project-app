@@ -1,3 +1,4 @@
+import { getProductsByCategory } from "../use-cases/get-product-by-category";
 import { loadProductByPage } from "../use-cases/load-products-by-page";
 
 
@@ -22,9 +23,30 @@ const loadPreviusPage = async() => {
     state.products = products;
 }
 
+const loadPageByCategory = async( category ) =>{
+    const products = await getProductsByCategory( category );
+    if( products.length <= 9){
+        state.products = products;
+    }
+    state.products = products.slice(0,9);
+}
+const loadNextPageCategory = async( category ) => {
+    const products = await getProductsByCategory( category );
+    if( products.length <= 9) return;
+    state.currentPage += 1;
+    state.products = products.slice(state.currentPage * 9 + 1, state.currentPage * 9 + 9 );
+}
+
+const loadPreviusPageCategory = async( category ) => {
+    
+}
+
 export default{
     loadNextPage,
     loadPreviusPage,
+    loadPageByCategory,
+    loadNextPageCategory,
+    loadPreviusPageCategory,
 
     getProducts: () => [...state.products], //Esto debe hacerse porque los objetos se pasan como referencia
     getCurrentPage: () => state.currentPage, //Pero los primitivos pasan como valor

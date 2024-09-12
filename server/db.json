@@ -199,6 +199,45 @@
       "photo": "product-3d-print",
       "product_name": "Soap Saver",
       "category": "Bathroom"
+    },{
+      "id": "26",
+      "isActive": true,
+      "price": 5.50,
+      "photo": "product-3d-print",
+      "product_name": "Phone Stand",
+      "category": "Accessories"
+    },
+    {
+      "id": "27",
+      "isActive": true,
+      "price": 2.99,
+      "photo": "product-3d-print",
+      "product_name": "Keychain",
+      "category": "Accessories"
+    },
+    {
+      "id": "28",
+      "isActive": true,
+      "price": 8.75,
+      "photo": "product-3d-print",
+      "product_name": "Tablet Stand",
+      "category": "Accessories"
+    },
+    {
+      "id": "29",
+      "isActive": true,
+      "price": 5.99,
+      "photo": "product-3d-print",
+      "product_name": "Bookmark",
+      "category": "Accessories"
+    },
+    {
+      "id": "30",
+      "isActive": true,
+      "price": 11.75,
+      "photo": "product-3d-print",
+      "product_name": "Remote Control Holder",
+      "category": "Accessories"
     }
   ]
 }

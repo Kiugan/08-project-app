@@ -13,7 +13,7 @@ export const createGrid = () => {
     return grid;
 }
 
-export const renderGrid = ( element ) => {
+export const renderGrid = ( element, category = '' ) => {
     
     const products = productStore.getProducts();
 
@@ -30,7 +30,7 @@ export const renderGrid = ( element ) => {
                 <p class="product-name">${ product.productName }</p>
                 <img src="https://placehold.co/200x200" alt="">
                 <p class="product-price">Price: ${ product.price }$ </p>
-                <p class="product-category">Category: ${ product.category }</p>
+                <p class="product-category" id="${ category }">Category: ${ product.category }</p>
             </div>
         `;
     });

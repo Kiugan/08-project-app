@@ -17,6 +17,8 @@ export const renderButton = ( element ) =>{
     storePage.append(prevButton, currentPage, nextButton);
     element.append(storePage);
 
+    const categoty = document.querySelector('.product-category');
+    console.log(categoty.id);
 
     prevButton.addEventListener( 'click', async() => {
         if( shopStore.getCurrentPage() === 1) return;
