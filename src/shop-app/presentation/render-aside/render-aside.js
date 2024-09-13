@@ -13,9 +13,23 @@ export const renderAside = async( element ) => {
         aside = true;
     }
 
+
+
     element.addEventListener( 'click', async( event ) => {
         if( event.target.tagName  === 'LI'){
             await shopStore.loadPageByCategory( event.target.innerText );
+            renderGrid( element );
+        };
+        const textBusqueda = element.querySelector('input');
+        if( event.target.tagName === 'BUTTON'  && textBusqueda.value !== ''){
+            await shopStore.getSearch(textBusqueda.value);
+            renderGrid( element );
+            textBusqueda.value = '';
+        };
+        if( event.target.tagName === 'UL'){
+            await shopStore.loadNextPage();
+            shopStore.resetPage();
+            await shopStore.loadNextPage();
             renderGrid( element );
         }
     });

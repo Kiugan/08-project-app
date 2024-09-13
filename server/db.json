@@ -1,243 +1,204 @@
 {
   "products": [
     {
-      "id": "1",
-      "isActive": true,
-      "price": 5.50,
-      "photo": "product-3d-print",
-      "product_name": "Phone Stand",
-      "category": "Accessories"
+        "id": "1",
+        "isActive": true,
+        "price": 5.5,
+        "photo": "product-3d-print",
+        "product_name": "Phone Stand",
+        "category": "Accessories"
     },
     {
-      "id": "2",
-      "isActive": true,
-      "price": 3.25,
-      "photo": "product-3d-print",
-      "product_name": "Cable Holder",
-      "category": "Organization"
+        "id": "2",
+        "isActive": true,
+        "price": 3.25,
+        "photo": "product-3d-print",
+        "product_name": "Cable Holder",
+        "category": "Organization"
     },
     {
-      "id": "3",
-      "isActive": true,
-      "price": 2.99,
-      "photo": "product-3d-print",
-      "product_name": "Keychain",
-      "category": "Accessories"
+        "id": "3",
+        "isActive": true,
+        "price": 2.99,
+        "photo": "product-3d-print",
+        "product_name": "Keychain",
+        "category": "Accessories"
     },
     {
-      "id": "4",
-      "isActive": true,
-      "price": 7.80,
-      "photo": "product-3d-print",
-      "product_name": "Pen Holder",
-      "category": "Office"
+        "id": "4",
+        "isActive": true,
+        "price": 7.8,
+        "photo": "product-3d-print",
+        "product_name": "Pen Holder",
+        "category": "Office"
     },
     {
-      "id": "5",
-      "isActive": true,
-      "price": 4.50,
-      "photo": "product-3d-print",
-      "product_name": "Coaster",
-      "category": "Kitchen"
+        "id": "5",
+        "isActive": true,
+        "price": 4.5,
+        "photo": "product-3d-print",
+        "product_name": "Coaster",
+        "category": "Kitchen"
     },
     {
-      "id": "6",
-      "isActive": false,
-      "price": 6.00,
-      "photo": "product-3d-print",
-      "product_name": "Bottle Opener",
-      "category": "Kitchen"
+        "id": "6",
+        "isActive": false,
+        "price": 6,
+        "photo": "product-3d-print",
+        "product_name": "Bottle Opener",
+        "category": "Kitchen"
     },
     {
-      "id": "7",
-      "isActive": true,
-      "price": 9.99,
-      "photo": "product-3d-print",
-      "product_name": "Wall Hook",
-      "category": "Organization"
+        "id": "7",
+        "isActive": true,
+        "price": 9.99,
+        "photo": "product-3d-print",
+        "product_name": "Wall Hook",
+        "category": "Organization"
     },
     {
-      "id": "8",
-      "isActive": true,
-      "price": 12.50,
-      "photo": "product-3d-print",
-      "product_name": "Plant Pot",
-      "category": "Home Deco"
+        "id": "8",
+        "isActive": true,
+        "price": 12.5,
+        "photo": "product-3d-print",
+        "product_name": "Plant Pot",
+        "category": "Home Deco"
     },
     {
-      "id": "9",
-      "isActive": true,
-      "price": 8.75,
-      "photo": "product-3d-print",
-      "product_name": "Tablet Stand",
-      "category": "Accessories"
+        "id": "9",
+        "isActive": true,
+        "price": 8.75,
+        "photo": "product-3d-print",
+        "product_name": "Tablet Stand",
+        "category": "Accessories"
     },
     {
-      "id": "10",
-      "isActive": true,
-      "price": 5.99,
-      "photo": "product-3d-print",
-      "product_name": "Bookmark",
-      "category": "Accessories"
+        "id": "10",
+        "isActive": true,
+        "price": 5.99,
+        "photo": "product-3d-print",
+        "product_name": "Bookmark",
+        "category": "Accessories"
     },
     {
-      "id": "11",
-      "isActive": true,
-      "price": 14.99,
-      "photo": "product-3d-print",
-      "product_name": "Desk Organizer",
-      "category": "Office"
+        "id": "11",
+        "isActive": true,
+        "price": 14.99,
+        "photo": "product-3d-print",
+        "product_name": "Desk Organizer",
+        "category": "Office"
     },
     {
-      "id": "12",
-      "isActive": false,
-      "price": 4.00,
-      "photo": "product-3d-print",
-      "product_name": "Glasses Holder",
-      "category": "Accessories"
+        "id": "12",
+        "isActive": false,
+        "price": 4,
+        "photo": "product-3d-print",
+        "product_name": "Glasses Holder",
+        "category": "Accessories"
     },
     {
-      "id": "13",
-      "isActive": true,
-      "price": 3.50,
-      "photo": "product-3d-print",
-      "product_name": "Coin Holder",
-      "category": "Organization"
+        "id": "13",
+        "isActive": true,
+        "price": 3.5,
+        "photo": "product-3d-print",
+        "product_name": "Coin Holder",
+        "category": "Organization"
     },
     {
-      "id": "14",
-      "isActive": true,
-      "price": 2.99,
-      "photo": "product-3d-print",
-      "product_name": "Bag Clip",
-      "category": "Kitchen"
+        "id": "14",
+        "isActive": true,
+        "price": 2.99,
+        "photo": "product-3d-print",
+        "product_name": "Bag Clip",
+        "category": "Kitchen"
     },
     {
-      "id": "15",
-      "isActive": false,
-      "price": 6.75,
-      "photo": "product-3d-print",
-      "product_name": "Light Switch Cover",
-      "category": "Home Deco"
+        "id": "15",
+        "isActive": false,
+        "price": 6.75,
+        "photo": "product-3d-print",
+        "product_name": "Light Switch Cover",
+        "category": "Home Deco"
     },
     {
-      "id": "16",
-      "isActive": true,
-      "price": 10.99,
-      "photo": "product-3d-print",
-      "product_name": "Soap Dish",
-      "category": "Bathroom"
+        "id": "16",
+        "isActive": true,
+        "price": 10.99,
+        "photo": "product-3d-print",
+        "product_name": "Soap Dish",
+        "category": "Bathroom"
     },
     {
-      "id": "17",
-      "isActive": true,
-      "price": 7.20,
-      "photo": "product-3d-print",
-      "product_name": "Napkin Holder",
-      "category": "Kitchen"
+        "id": "17",
+        "isActive": true,
+        "price": 7.2,
+        "photo": "product-3d-print",
+        "product_name": "Napkin Holder",
+        "category": "Kitchen"
     },
     {
-      "id": "18",
-      "isActive": true,
-      "price": 8.00,
-      "photo": "product-3d-print",
-      "product_name": "Business Card Holder",
-      "category": "Office"
+        "id": "18",
+        "isActive": true,
+        "price": 8,
+        "photo": "product-3d-print",
+        "product_name": "Business Card Holder",
+        "category": "Office"
     },
     {
-      "id": "19",
-      "isActive": true,
-      "price": 6.25,
-      "photo": "product-3d-print",
-      "product_name": "Candle Holder",
-      "category": "Home Deco"
+        "id": "19",
+        "isActive": true,
+        "price": 6.25,
+        "photo": "product-3d-print",
+        "product_name": "Candle Holder",
+        "category": "Home Deco"
     },
     {
-      "id": "20",
-      "isActive": false,
-      "price": 3.99,
-      "photo": "product-3d-print",
-      "product_name": "Cup Holder",
-      "category": "Kitchen"
+        "id": "20",
+        "isActive": false,
+        "price": 3.99,
+        "photo": "product-3d-print",
+        "product_name": "Cup Holder",
+        "category": "Kitchen"
     },
     {
-      "id": "21",
-      "isActive": true,
-      "price": 4.50,
-      "photo": "product-3d-print",
-      "product_name": "Cable Winder",
-      "category": "Organization"
+        "id": "21",
+        "isActive": true,
+        "price": 4.5,
+        "photo": "product-3d-print",
+        "product_name": "Cable Winder",
+        "category": "Organization"
     },
     {
-      "id": "22",
-      "isActive": true,
-      "price": 5.00,
-      "photo": "product-3d-print",
-      "product_name": "Spatula Holder",
-      "category": "Kitchen"
+        "id": "22",
+        "isActive": true,
+        "price": 5,
+        "photo": "product-3d-print",
+        "product_name": "Spatula Holder",
+        "category": "Kitchen"
     },
     {
-      "id": "23",
-      "isActive": true,
-      "price": 11.75,
-      "photo": "product-3d-print",
-      "product_name": "Remote Control Holder",
-      "category": "Accessories"
+        "id": "23",
+        "isActive": true,
+        "price": 11.75,
+        "photo": "product-3d-print",
+        "product_name": "Remote Control Holder",
+        "category": "Accessories"
     },
     {
-      "id": "24",
-      "isActive": true,
-      "price": 12.00,
-      "photo": "product-3d-print",
-      "product_name": "Umbrella Stand",
-      "category": "Home Deco"
+        "id": "24",
+        "isActive": true,
+        "price": 12,
+        "photo": "product-3d-print",
+        "product_name": "Umbrella Stand",
+        "category": "Home Deco"
     },
     {
-      "id": "25",
-      "isActive": true,
-      "price": 3.50,
-      "photo": "product-3d-print",
-      "product_name": "Soap Saver",
-      "category": "Bathroom"
-    },{
-      "id": "26",
-      "isActive": true,
-      "price": 5.50,
-      "photo": "product-3d-print",
-      "product_name": "Phone Stand",
-      "category": "Accessories"
-    },
-    {
-      "id": "27",
-      "isActive": true,
-      "price": 2.99,
-      "photo": "product-3d-print",
-      "product_name": "Keychain",
-      "category": "Accessories"
-    },
-    {
-      "id": "28",
-      "isActive": true,
-      "price": 8.75,
-      "photo": "product-3d-print",
-      "product_name": "Tablet Stand",
-      "category": "Accessories"
-    },
-    {
-      "id": "29",
-      "isActive": true,
-      "price": 5.99,
-      "photo": "product-3d-print",
-      "product_name": "Bookmark",
-      "category": "Accessories"
-    },
-    {
-      "id": "30",
-      "isActive": true,
-      "price": 11.75,
-      "photo": "product-3d-print",
-      "product_name": "Remote Control Holder",
-      "category": "Accessories"
+        "id": "25",
+        "isActive": true,
+        "price": 3.5,
+        "photo": "product-3d-print",
+        "product_name": "Soap Saver",
+        "category": "Bathroom"
     }
-  ]
+    ]
 }

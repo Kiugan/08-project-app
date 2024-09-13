@@ -1,4 +1,4 @@
-import productStore from '../../store/shop-store';
+import shopStore from '../../store/shop-store';
 import gridHTML from './render-grid.html?raw';
 import './render-grid.css';
 import { Product } from '../../models/product';
@@ -15,13 +15,12 @@ export const createGrid = () => {
 
 export const renderGrid = ( element, category = '' ) => {
     
-    const products = productStore.getProducts();
+    const products = shopStore.getProducts();
 
     if( !grid ){
         grid = createGrid();
         element.append( grid );
     }
-
 
     let productHTML = '';
     products.forEach( product => {
